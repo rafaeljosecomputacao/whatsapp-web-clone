@@ -69,7 +69,7 @@ ul {
 	box-sizing: border-box;
 }
 
-.fas.fa-bell-slash {
+.icon-notification-container i {
 	width: 45px;
 	height: 45px;
 	text-align: center;
@@ -79,7 +79,6 @@ ul {
 	color: #9DE1FE;
 	background-color: #F5FCFF;
 	position: absolute;
-	top: 20px;
 	left: 15px;
 }
 
@@ -87,9 +86,9 @@ ul {
 	margin: 0;
 }
 
-.notification-container .receive-notification {
+.receive-notification {
 	font-size: 15px;
-	margin-bottom: 3px;
+	padding-bottom: 5px;
 }
 
 .activate-notification {
@@ -99,21 +98,21 @@ ul {
 /* search */
 
 .search-container {
-	height: 50px;
 	width: 100%;
+	height: 50px;
 	padding-left: 7.5px;
 	padding-top: 7.5px;
-	background-color: #F8F8F8;
-	position: relative;
+	background-color: #F8F8F8;	
 	color: #BDC1C3;
+	position: relative;
 	box-sizing: border-box;
 }
 
 .search-container i {
 	position: absolute;
 	left: 30px;
-	top: 18px;
-	font-size: 14px;
+	top: 15px;
+	font-size: 15px;
 }
 
 .search-container input {
@@ -123,8 +122,8 @@ ul {
 	padding-left: 60px;
 	border-radius: 17.5px;
 	background-color: #FFF;
-	box-sizing: border-box;
 	color: #80868A;
+	box-sizing: border-box;
 }
 
 .search-container ::placeholder {
@@ -195,9 +194,10 @@ ul {
 	color: #454545;
 }
 
-.fa-check-double {
-	margin-right: 5px;
+.user-message-preview i {
 	color: #4FC3F7;
+	font-size: 15px;
+	margin-right: 5px;
 }
 
 .message-info {
@@ -267,12 +267,11 @@ ul {
 	margin-right: 20px;
 }
 
-.chat-tools-container li {
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 15px;
-	font-size: 18px;
+.chat-tools-container i {
 	color: #80868A;
+	font-size: 22px;
+	margin-left: 15px;
+	margin-right: 15px;	
 	cursor: pointer;
 }
 
@@ -391,6 +390,6 @@ ul {
 	line-height: 60px;
 }
 
-.fa-microphone {
+.bi-mic-fill {
 	float: right;
 }
